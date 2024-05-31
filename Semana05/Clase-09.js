@@ -182,6 +182,7 @@ function navegarPaginaExito() {
     
     botonSubmit.textContent = "Cargando...";
     
+    localStorage.setItem('user', JSON.stringify(estadoUsuario)); // esto me pide clase 10
    
     setTimeout(() => {
         
