@@ -23,7 +23,7 @@ window.addEventListener('load', function () {
         }
 
         const payload = {
-            name:name.value,
+            firstName:name.value,
             lastName:lastName.value,
             email: email.value,
             password: password.value,
